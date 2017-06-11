@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Music Player</title>
+	<link href="reset.css" rel="stylesheet">
+	<link href="styles.css" rel="stylesheet">
+</head>
+<body>
+	<div id="wrapper">
+		<div id="container">
+			<div id="head-wrapper">
+				<div id="logo"><img src="images/logo.png" alt="logo"></div>
+				<div id="head-text">
+					<span id="app-name">Royalty Free Music Player</span>
+				</div>
+			</div><!--close head-->
+			<div id="body-wrapper">
+				<ul>
+					<li class="songs">
+						<span class="song-status"><img class="song-icon" src="images/icons8-Start-50.png" alt="play icon"></span>
+						<div class="song-text">
+							<span class="song-title">Song Title</span>
+							<span class="song-band">Band Name</span>
+						</div>
+					</li>
+					<li class="songs">
+						<span class="song-status"><img class="song-icon" src="images/icons8-Start-50.png" alt="play icon"></span>
+						<div class="song-text">
+							<span class="song-title">Song Title</span>
+							<span class="song-band">Band Name</span>
+						</div>
+					</li>
+				</ul>
+			</div><!--close body-->
+			<div id="status-wrapper">
+				<div id="controls-wrapper">
+					<input class="control-btn" type="image" src="images/icons8-First-Filled-50.png" alt="previous">
+					<input class="control-btn" type="image" src="images/icons8-Circled-Play-50.png" alt="status">
+					<input class="control-btn" type="image" src="images/icons8-Last-Filled-50.png" alt="next">
+				</div>
+				<div id="status-text">
+					<span class="status-name">Song Name</span>
+					<span class="status-band">band name</span>
+				</div>
+
+			</div><!--close controls-->
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>

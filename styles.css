@@ -1,0 +1,121 @@
+{
+  outline: 1px solid gray;
+}
+body, html{
+  height: 100%;
+}
+#wrapper{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  background-color: gray;
+}
+#container{
+  margin: 80px auto;
+  width: 600px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 2px solid black;
+}
+
+/***************************
+
+****************************/
+
+/***************************
+head
+****************************/
+#head-wrapper{
+  height: 4em;
+  display: flex;
+  padding-top: 5px;
+}
+
+#logo{
+  margin-left: 2.5em;
+}
+#logo img{
+  height: 2.5em;
+}
+#head-text{
+  margin: 5px auto;
+}
+#app-name{
+  font-size: 2.2em;
+  font-weight: bold;
+}
+
+/***************************
+Body Song List
+****************************/
+#body-wrapper{
+  paddding: 5px;
+  height: 100%;
+  background-color: #bdbbb5;
+}
+ul{
+  display: flex;
+  flex-direction: column;
+
+}
+.songs{
+  height: 2.5em;
+  display: flex;
+  justify-content: flex-start;
+  border-top: 1px solid #3b3538;
+  border-bottom: 1px solid #3b3538;
+}
+.song-status{
+  display: flex;
+  align-items: center;
+}
+.song-icon{
+  height: 2em;
+}
+
+.song-text{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+.song-text span{
+  margin: 0 15px;
+}
+.song-title{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.song-band{
+
+}
+
+/***************************
+Controls
+****************************/
+
+#status-wrapper{
+  display: flex;
+  height: 6em;
+}
+
+#controls-wrapper{
+  align-self: center;
+  margin-left: 10px;
+}
+#status-text{
+  align-self: center;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.status-name{
+  font-size: 1.8em;
+}
+.status-band{
+  font-size: 1.0em;
+}
