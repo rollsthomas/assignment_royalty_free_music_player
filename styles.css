@@ -39,6 +39,7 @@ head
 }
 #logo img{
   height: 2.5em;
+  margin: 0;
 }
 #head-text{
   margin: 5px auto;
@@ -89,8 +90,9 @@ ul{
   font-size: 1.2em;
   font-weight: bold;
 }
-.song-band{
-
+img{
+  margin-top: 4px;
+  margin-left: 4px;
 }
 
 /***************************
